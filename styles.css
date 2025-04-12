@@ -33,7 +33,7 @@ h2 {
 }
 
 h2 span {
-    color: #ff5722;
+    color:var(--primary-color)
 }
 
 p {
@@ -59,7 +59,7 @@ section {
 
 .btn {
     display: inline-block;
-    background: #ff5722 ;
+    background:var(--primary-color);
     color: #fff;
     padding: 0.8rem 2rem;
     border: none;
@@ -67,14 +67,16 @@ section {
     font-size: 1rem;
     border-radius: 30px;
     font-weight: 600;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease-in;
     text-transform: uppercase;
 }
 
 .btn:hover {
-    background: #e64a19;
+    background:var(--secondary-color);
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border: 2px dotted var(--primary-color);
+    color: var(--primary-color);
 }
 
 /* Navbar */
@@ -100,7 +102,7 @@ section {
 }
 
 .logo span {
-    color: #ff5722;
+    color: var(--primary-color);
 }
 
 .nav-links {
@@ -125,7 +127,7 @@ section {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #ff5722;
+    background-color:var(--primary-color);
     transition: width 0.3s ease;
 }
 
@@ -142,7 +144,8 @@ section {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: linear-gradient(rgba(245, 245, 247, 0.5),rgba(10, 10, 10, 0.8)),url(./images/background.jpg) ;
+    background: linear-gradient(rgba(245, 245, 247, 0.5),rgba(10, 10, 10, 0.8)) ;
+    background-image: url(./images/background.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -190,7 +193,8 @@ section {
 
 .image-placeholder {
     height: 400px;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    background-image: url(./images/photo-1517836357463-d25dfeac3438.png);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -357,7 +361,7 @@ footer {
 /* Media Queries */
 @media screen and (max-width: 768px) {
     .nav-links {
-        display: none;
+        display:none;
     }
 
     .mobile-menu {
