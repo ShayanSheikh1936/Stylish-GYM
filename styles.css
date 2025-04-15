@@ -23,6 +23,7 @@ body {
 h1, h2, h3 {
     font-family: 'Oswald', sans-serif;
     margin-bottom: 1rem;
+    font-weight: 700;
 }
 
 h2 {
@@ -99,6 +100,11 @@ section {
     font-size: 1.8rem;
     font-weight: 700;
     text-transform: uppercase;
+    cursor: pointer;
+}
+.navbar .logo
+{
+    color: var(--dark-color);
 }
 
 .logo span {
@@ -144,8 +150,7 @@ section {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: linear-gradient(rgba(245, 245, 247, 0.5),rgba(10, 10, 10, 0.8)) ;
-    background-image: url(./images/background.jpg);
+    background-image: linear-gradient(rgba(184, 229, 255, 0.5), rgba(10, 10, 10, 0.8)), url(./images/background.jpg);  
     background-size: cover;
     background-position: center;
     display: flex;
@@ -171,6 +176,9 @@ section {
     font-size: 1.2rem;
     margin-bottom: 2rem;
 }
+.header p{
+    font-weight: 400 ;
+}
 
 /* About Section */
 .about {
@@ -193,8 +201,7 @@ section {
 
 .image-placeholder {
     height: 400px;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
-    background-image: url(./images/photo-1517836357463-d25dfeac3438.png);
+    background-image: linear-gradient(rgba(46, 46, 58, 0.4), rgba(10, 10, 10, 0.7)), url(./images/photo-1517836357463-d25dfeac3438.png);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
