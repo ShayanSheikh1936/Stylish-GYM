@@ -134,7 +134,7 @@ section {
     bottom: 0;
     left: 0;
     background-color:var(--primary-color);
-    transition: width 0.3s ease;
+    transition: 0.3s ease-in;
 }
 
 .nav-links a:hover:after {
@@ -161,7 +161,7 @@ section {
 }
 
 .header {
-    color: black;
+    color: var(--dark-color);
     max-width: 800px;
     padding: 0 2rem;
 }
