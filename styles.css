@@ -395,7 +395,7 @@ footer {
     }
     .fixed-arrow
     {
-        padding-top: 1px;
+      top: 80%;  
     }
 }
 
@@ -420,6 +420,7 @@ footer {
     margin: 20px;
     position: fixed;
     top: 500px;
+    bottom: 0px;
     width: 60px;
     height: 60px;
     right: 20px;
