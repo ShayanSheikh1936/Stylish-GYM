@@ -4,6 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+html
+{
+    scroll-behavior: smooth;
+}
 
 :root {
     --primary-color: #ff5722;
@@ -365,7 +369,8 @@ footer {
 }
 
 /* Media Queries */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px)
+ {
     .nav-links {
         display:none;
     }
@@ -395,7 +400,7 @@ footer {
     }
     .fixed-arrow
     {
-      top: 80%;  
+        top: 450px;
     }
 }
 
@@ -419,7 +424,7 @@ footer {
     border-radius: 100px 100px;
     margin: 20px;
     position: fixed;
-    top: 500px;
+    top: 450px;
     bottom: 0px;
     width: 60px;
     height: 60px;
