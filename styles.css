@@ -424,8 +424,8 @@ footer {
     border-radius: 100px 100px;
     margin: 20px;
     position: fixed;
-    top: 450px;
-    bottom: 0px;
+    /* top: 450px; */
+    bottom: 40px;
     width: 60px;
     height: 60px;
     right: 20px;
