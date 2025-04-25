@@ -465,3 +465,7 @@ button:hover{
 .footer-bottom p span a:hover{
     color: var(--primary-color);
 }
+.navbar-h .navbar-toggler 
+{
+    border-color: var(--primary-color);
+}
